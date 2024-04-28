@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="imgs/fondo.png" />
+  <title>Control por Voz</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="styles_examen.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <img src="imgs/fondo.png" alt="Grabadora de Voz" class="img-fluid header-image" width="2%">
+    <div class="container">
+      <a class="navbar-brand" href="#" id="navbar">Control por Voz</a>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <h1 class="fw-bold" id="Title">Control por Voz</h1>
+    <br>
+    <h3 class="lead" id="usuario"></h3>
+  </div>
+  <div class="container mt-5">
+    <p class="lead" id="textoBienvenida">Esta página permite el control de dispositivos de una casa mediante órdenes por voz.</p>
+    <p class="lead" id="textoBienvenida">El reconocimiento de voz se activa automáticamente al cargar la página.</p>
+      <p class="fw-bold" id="textoBienvenida">Y se reconocerá el comando al decir la palabra <b id="resaltar">Luis</b>.</p>
+      
+    <hr>
+      <div id="lista2">
+      <p class="lead">
+        Puedes dar las siguientes órdenes:
+      </p>
+      <ul id="lista">
+        <li><b>"encender/apagar la luz de la recámara ":</b> enciende/apaga la luz de la recámara (1 foco)</li>
+        <li><b>"encender/apagar la luz de la sala":</b> enciende/apaga la luz de la sala (1 foco)</li>
+        <li><b>"encender/apagar las luces del jardín":</b> enciende/apaga las luces del jardín (5 focos)</li>
+        <li><b>"encender/apagar el ventilador":</b> enciende/apaga el ventilador de techo (1 ventilador)</li>
+        <li><b>"abrir/cerrar las cortinas":</b> abre/cierra las cortinas (3 cortinas)</li>
+        <li><b>"activar/desactivar la alarma de la casa":</b> activa la alarma de la casa (1 alarma con chicharra)</li>
+        <li><b>"encender/apagar las cámaras de seguridad":</b> enciende las cámaras de seguridad (3 cámaras de videovigilancia)</li>
+      </ul>
+    </div>
+  </div>
+  <hr>
+  <div class="container mt-4">
+    <div class="mt-4">
+      <h1 id="result" >Comando Detectado</h1>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  
+  <footer class="footer mt-auto py-3 bg-dark fixed-bottom">
+    <div class="container">
+      <span class="text-muted">Todos los derechos reservados &copy; Zinedine Acosta, 2024</span>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>

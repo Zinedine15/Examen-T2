@@ -1,0 +1,73 @@
+body {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.60), rgba(255, 255, 255, 0.60)), url('imgs/fondo.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 30%;
+}
+
+#Title {
+  background: linear-gradient(25deg,red,blue,green);
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  text-align: center;
+}
+
+#textoBienvenida {
+  font-size: 20px;
+}
+
+#lista2 {
+  font-size: 15px;
+}
+
+#resaltar {
+  font-weight: bold;
+  color: #5b8291;
+}
+
+#lista {
+  font-size: 1.1em;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.text-muted {
+  color: white;
+}
+
+#result {
+  background: linear-gradient(25deg,darkgreen,green);
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+#usuarioAutenticado {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#usuario{
+  font-weight: bold;
+  color: #5b8291;
+}
+
+#navbar{
+  background: linear-gradient(25deg,white,gray);
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
