@@ -363,7 +363,7 @@ function iniciarReconocimientoDeVoz() {
 
             textCc = "Encender las cámaras";
             usuario  = usuarioAutenticado ;
-            enviarDatosAMockAPI(resultado, usuario);
+            enviarDatosAMockAPI(textCc, usuario);
             resultDiv.textContent = "Comando Detectado: Luis, "+textCc;
 
             break;
@@ -374,7 +374,7 @@ function iniciarReconocimientoDeVoz() {
 
             textCc = "Apagar las cámaras";
             usuario  = usuarioAutenticado ;
-            enviarDatosAMockAPI(resultado, usuario);
+            enviarDatosAMockAPI(textCc, usuario);
             resultDiv.textContent = "Comando Detectado: Luis, "+textCc;
 
             break;
