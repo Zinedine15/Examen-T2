@@ -227,7 +227,7 @@ function iniciarReconocimientoDeVoz() {
             (resultado.includes(kw1_1) && resultado.includes(lugar1)) || (resultado.includes(kw1_1) && resultado.includes(lugar1_1)) ||
             (resultado.includes(kw1_2) && resultado.includes(lugar1)) || (resultado.includes(kw1_2) && resultado.includes(lugar1_1)):
 
-            textCc = "Encender la luz de la recamara";
+            textCc = "Encender la luz de la recámara";
             usuario  = usuarioAutenticado ;
             enviarDatosAMockAPI(textCc, usuario);
             resultDiv.textContent = "Comando Detectado: Luis, "+textCc;
