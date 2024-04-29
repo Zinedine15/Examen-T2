@@ -78,7 +78,7 @@ function autenticarUsuarioPorVoz() {
                 // Definir usuarios y contraseñas
                 const usuariosContraseñas = [
                     { usuario: 'Zinedine', contraseña: '1973' },
-                    { usuario: 'Isabel', contraseña: '2002' }
+                    { usuario: 'Francisco', contraseña: '8246' }
                 ];
 
                 let credencialesCorrectas = false;
@@ -381,7 +381,7 @@ function iniciarReconocimientoDeVoz() {
 
             default:
                 console.log("No se reconoce el comando");
-                resultDiv.textContent = "No se reconoce el comando: " + resultado;
+                resultDiv.textContent = "No se reconoce el comando";
                 break;
         }
     };
