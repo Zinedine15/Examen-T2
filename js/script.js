@@ -2,6 +2,7 @@ let textCc = ''; // Variable que guardará el comando detectado
 let resultado = ''; // Variable que guardará el resultado de la detección de voz
 let usuarioAutenticado = ''; // Variable para almacenar el nombre de usuario autenticado
 let contraseñaAutenticada = ''; // Variable para almacenar la contraseña autenticada
+let usuario = ''; // Variable para almacenar el nombre de usuario
 
 // Función para obtener la hora del sistema
 function obtenerHoraYFechaDelSistema() {
@@ -228,7 +229,7 @@ function iniciarReconocimientoDeVoz() {
             (resultado.includes(kw1_2) && resultado.includes(lugar1)) || (resultado.includes(kw1_2) && resultado.includes(lugar1_1)):
 
             textCc = "Encender la luz de la recámara";
-            usuario  = usuarioAutenticado ;
+            usuario  = usuarioAutenticado;
             enviarDatosAMockAPI(textCc, usuario);
             resultDiv.textContent = "Comando Detectado: Luis, "+textCc;
 
