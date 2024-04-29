@@ -401,6 +401,6 @@ function iniciarReconocimientoDeVoz() {
         recognition.start(); // Reinicia el reconocimiento de voz después de cada detección
     };
 }
-alert("Verifica el usuario y contraseña");
+alert("Verifica el usuario y contraseña, por medio de la voz");
 // Verificar la autenticación del usuario por voz
 autenticarUsuarioPorVoz();
